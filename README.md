@@ -473,12 +473,6 @@ Example: `feat: add narrative velocity market type`
 3. Submit PRs for improvements
 4. Help improve documentation
 
-### For Integrators
-
-1. Study API documentation at [docs.rs/preda-sdk](https://docs.rs/preda-sdk)
-2. Implement custom oracle adapters
-3. Build frontend interfaces
-4. Create market strategies
 
 ## 📈 Roadmap
 
