@@ -4,8 +4,7 @@
 
 **Rust SDK for Time-Shifted Prediction Markets on Solana**
 
-[![Crates.io](https://img.shields.io/crates/v/preda-sdk.svg)](https://crates.io/crates/preda-sdk)
-[![Documentation](https://docs.rs/preda-sdk/badge.svg)](https://docs.rs/preda-sdk)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -404,7 +403,7 @@ We are committed to providing a welcoming and inclusive environment. Please be r
 
 ```bash
 # Clone the repository
-git clone https://github.com/polarity/preda-sdk.git
+git clone https://github.com/predaprotocol/preda-sdk.git
 cd preda-sdk
 
 # Build the project
@@ -498,9 +497,9 @@ This project is dual-licensed under:
 
 ## 🌐 Community
 
-- **Discord**: [Join our community](https://discord.gg/preda)
-- **Twitter**: [@PredaProtocol](https://twitter.com/PredaProtocol)
-- **Documentation**: [docs.preda.io](https://docs.preda.io)
+- **Website**: [predaprotocol.com](https://predaprotocol.com/)
+- **Documentation**: [GitBook](https://predaprotocol.gitbook.io/documentation/)
+- **Twitter**: [@predaprotocol](https://x.com/predaprotocol)
 
 ## 🙏 Acknowledgments
 
