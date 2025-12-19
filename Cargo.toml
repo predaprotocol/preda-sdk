@@ -1,0 +1,66 @@
+[package]
+name = "preda-sdk"
+version = "0.1.0"
+edition = "2021"
+authors = ["Preda Contributors"]
+license = "MIT OR Apache-2.0"
+description = "Rust SDK for Preda - Time-Shifted Prediction Markets on Solana"
+repository = "https://github.com/polarity/preda-sdk"
+keywords = ["blockchain", "solana", "prediction-markets", "web3", "defi"]
+categories = ["cryptography::cryptocurrencies", "api-bindings"]
+
+[dependencies]
+# Solana dependencies
+solana-sdk = "1.17"
+solana-client = "1.17"
+solana-program = "1.17"
+anchor-lang = "0.29"
+anchor-spl = "0.29"
+
+# Serialization
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+borsh = "0.10"
+
+# Async runtime
+tokio = { version = "1.35", features = ["full"] }
+async-trait = "0.1"
+
+# Error handling
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Cryptography
+bs58 = "0.5"
+sha2 = "0.10"
+
+# Time handling
+chrono = { version = "0.4", features = ["serde"] }
+
+# Utilities
+derive_more = "0.99"
+log = "0.4"
+env_logger = "0.11"
+
+# HTTP client for oracle integration
+reqwest = { version = "0.11", features = ["json"] }
+
+[dev-dependencies]
+tokio-test = "0.4"
+mockito = "1.2"
+
+[lib]
+name = "preda_sdk"
+path = "src/lib.rs"
+
+[[example]]
+name = "create_market"
+path = "examples/create_market.rs"
+
+[[example]]
+name = "place_position"
+path = "examples/place_position.rs"
+
+[[example]]
+name = "query_bsi"
+path = "examples/query_bsi.rs"
